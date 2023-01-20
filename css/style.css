@@ -48,15 +48,17 @@ body {
 
 /* carousel section start */
 .carosel_texts {
-  width: 600px;
+  /* width: 600px; */
+  text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: 0 auto;
 }
 .corousel_heading {
   font-size: 45px;
   font-weight: 700;
-  width: 600px;
+  /* width: 600px; */
 }
 .corousel_button {
   width: 160px;
@@ -114,6 +116,9 @@ body {
 /* second section ends */
 
 /* third section starts */
+.section_three {
+  margin-top: 100px;
+}
 .third_tick {
   padding-right: 10px;
 }
@@ -153,27 +158,27 @@ body {
   margin-top: 20px;
 }
 .third_cards_parent_div {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   position: relative;
 }
 .third_3rd_card {
-  width: 21%;
+  /* width: 21%; */
   height: auto;
   background-color: #ffffff;
   padding: 30px 20px;
   translate: 0 -60px;
-  margin: 30px 20px;
+  /* margin: 30px 20px; */
   border-radius: 40px;
 }
 .third_3rd_card_upper {
-  width: 21%;
+  /* width: 21%; */
   height: 450px;
   background-color: #3f87f5;
   padding: 30px 20px 30px 20px;
   margin-top: -70px;
-  margin-left: 20px;
-  margin-right: 20px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
   border-radius: 40px;
   color: #fff !important;
   /* position: absolute; */
@@ -181,6 +186,9 @@ body {
 /* third section ends */
 
 /* Forth section starts */
+.section_forth {
+  margin-top: 100px;
+}
 .forth_card {
   padding: 30px 25px;
 }
@@ -208,24 +216,19 @@ body {
 
 /* Footer starts */
 .footer_section {
-  background-color: black;
+  background-color: #0b0d17;
   margin-top: 100px;
-  padding: 50px 30px;
+  padding: 50px 80px;
 }
-
 .footer_left {
   display: flex;
-  flex-direction: column;
-  justify-content: end;
   align-items: center;
 }
-/* .footer_play_store {
-  display: flex;
-  flex-direction: column;
-} */
 .footer_right {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-end;
 }
