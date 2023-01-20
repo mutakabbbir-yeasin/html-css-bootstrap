@@ -17,11 +17,21 @@
     /* display: block !important; */
   }
   .corousel_heading {
-    font-size: 20px !important;
-    font-weight: bold;
+    font-size: 18px !important;
+    font-weight: 500;
     /* width: 500px; */
   }
   .corousel_paragraph {
-    font-size: 16px !important;
+    font-size: 14px !important;
+  }
+  .corousel_button {
+    width: 100px !important;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background-color: #3f87f5;
+    margin-bottom: 40px;
+    border: none;
+    margin: 0 auto;
   }
 }
