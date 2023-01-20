@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav_header {
+  padding: 20px 120px;
+}
+.nav_logo {
+  font-weight: bold;
+  font-size: 26px;
+}
+.nav-link {
+  padding: 0.4rem 1rem !important;
+}
+.nav_right {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav_right > ul > li {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 5px 10px;
+  border: none !important;
+  border-radius: 4px;
+}
+.nav_first_item {
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #3f87f5;
+  border-radius: 4px;
+  background-color: #3f87f5;
+  color: rgb(255, 255, 255) !important;
+}
+.nav_right > ul > li > a {
+  color: rgb(0, 0, 0) !important;
+}
+.nav_right > ul > li:hover {
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  background-color: #3f87f5;
+  transition: 1s;
+}
+.nav_right > ul > li > a:hover {
+  color: #fff !important;
+}
+
+/* carousel section start */
+.carosel_texts {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.corousel_heading {
+  font-size: 45px;
+  font-weight: 700;
+  width: 600px;
+}
+.corousel_button {
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #3f87f5;
+  margin-bottom: 40px;
+  border: none;
+}
+.corousel_button:hover {
+  background-color: #fff;
+  color: #3f87f5;
+  font-weight: 500;
+}
+
+/* carousel section end */
+
+/* second section starts */
+.section_two {
+  margin: 100px 0;
+}
+.second_1st_div {
+  width: 50%;
+}
+.second_img {
+  width: 510px;
+  height: 320px;
+  border-radius: 5px;
+}
+.second_2nd_div {
+  text-align: left;
+  padding-top: 60px;
+  width: 50%;
+}
+.second_btn {
+  border: none;
+  background-color: #3f87f5;
+  color: #fff;
+  padding: 10px 20px;
+}
+.second_btn:hover {
+  background-color: #fff;
+  color: #3f87f5;
+  border: 1px solid #3f87f5;
+}
+.second_right_arrow {
+  color: #fff !important;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+.second_btn:hover .second_right_arrow {
+  color: #3f87f5 !important;
+}
+/* second section ends */
+
+/* third section starts */
+.third_tick {
+  padding-right: 10px;
+}
+.third_3rd_tick {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 10px;
+}
+.third_para {
+  /* padding: 0 !important; */
+  margin: 0 !important;
+}
+.third_btn {
+  width: 195px;
+  height: 45px;
+  background-color: #fdf4fa;
+  color: #3f87f5;
+  font-weight: 500;
+  border: none;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+.third_btn:hover {
+  background-color: #3f87f5;
+  color: #fff;
+}
+.third_3rd_btn {
+  width: 195px;
+  height: 45px;
+  background-color: #fdf4fa;
+  color: #3f87f5;
+  font-weight: 500;
+  border: none;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+.third_cards_parent_div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.third_3rd_card {
+  width: 21%;
+  height: auto;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  translate: 0 -60px;
+  margin: 30px 20px;
+  border-radius: 40px;
+}
+.third_3rd_card_upper {
+  width: 21%;
+  height: 450px;
+  background-color: #3f87f5;
+  padding: 30px 20px 30px 20px;
+  margin-top: -70px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 40px;
+  color: #fff !important;
+  /* position: absolute; */
+}
+/* third section ends */
+
+/* Forth section starts */
+.forth_card {
+  padding: 30px 25px;
+}
+#forth_card {
+  height: 350px !important;
+  border: 1px solid #fff;
+  /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
+  box-shadow: 5px 5px 20px #cdcacaf6;
+}
+.forth_card_img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+/* Forth section ends */
+
+/* Fifth section starts */
+.fifth_section {
+  margin-top: 100px;
+}
+/* Fifth section ends */
+
+/* Footer starts */
+.footer_section {
+  background-color: black;
+  margin-top: 100px;
+  padding: 50px 30px;
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+/* .footer_play_store {
+  display: flex;
+  flex-direction: column;
+} */
+.footer_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
