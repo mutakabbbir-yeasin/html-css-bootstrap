@@ -49,6 +49,7 @@ body {
 /* carousel section start */
 .carosel_texts {
   /* width: 600px; */
+  padding-top: 40px !important;
   text-align: center;
   display: flex;
   flex-direction: column;
