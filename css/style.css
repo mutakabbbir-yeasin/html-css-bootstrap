@@ -83,17 +83,17 @@ body {
   margin: 100px 0;
 }
 .second_1st_div {
-  width: 50%;
+  /* width: 50%; */
 }
 .second_img {
-  width: 510px;
-  height: 320px;
+  /* width: 510px; */
+  /* height: 320px; */
   border-radius: 5px;
 }
 .second_2nd_div {
   text-align: left;
-  padding-top: 60px;
-  width: 50%;
+  padding-top: 75px;
+  /* width: 50%; */
 }
 .second_btn {
   border: none;

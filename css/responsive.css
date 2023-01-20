@@ -19,4 +19,20 @@
     border: none;
     margin: 0 auto;
   }
+
+  /* second section */
+  .second_1st_div {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .second_2nd_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  .second_btn {
+    /* margin: 0 auto; */
+  }
 }
