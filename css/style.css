@@ -221,14 +221,16 @@ body {
   padding: 50px 80px;
 }
 .footer_left {
-  display: flex;
+  margin-top: 10%;
+  /* justify-items: center; */
   align-items: center;
-}
-.footer_right {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+
+.footer_right {
+  /* justify-items: center; */
   align-items: center;
-  flex-wrap: wrap;
-  align-content: flex-end;
+  display: flex;
+  flex-direction: column;
 }
