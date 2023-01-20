@@ -12,7 +12,7 @@
   .corousel_button {
     width: 100px !important;
     font-size: 14px;
-    text-align: center;
+    /* text-align: center; */
     color: #fff;
     background-color: #3f87f5;
     margin-bottom: 40px;
@@ -32,7 +32,24 @@
     align-items: center;
     padding: 10px 30px;
   }
-  .second_btn {
-    /* margin: 0 auto; */
+
+  /* third section starts */
+  .third_cards_parent_div {
+    /* position: relative; */
+  }
+  .third_3rd_card {
+    width: 50%;
+    margin: 10px auto !important;
+    padding: 10px 10px;
+  }
+  .third_3rd_card_upper {
+    width: 50% !important;
+    margin: 10px auto !important;
+  }
+
+  /* forth section start */
+  #forth_card {
+    width: 80%;
+    margin: 5px auto;
   }
 }
