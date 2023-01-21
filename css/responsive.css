@@ -21,6 +21,9 @@
   }
 
   /* second section */
+  .section_two {
+    margin-top: 80px !important;
+  }
   .second_1st_div {
     width: 90%;
     margin: 0 auto;
@@ -34,6 +37,9 @@
   }
 
   /* third section starts */
+  .section_three {
+    margin-top: 80px !important;
+  }
   .third_cards_parent_div {
     /* position: relative; */
   }
@@ -48,12 +54,18 @@
   }
 
   /* forth section start */
+  .section_forth {
+    margin-top: 80px !important;
+  }
   #forth_card {
     width: 80%;
     margin: 5px auto;
   }
 
   /* fifth section start */
+  .fifth_section {
+    margin-top: 80px !important;
+  }
   .accrodian_sm_width {
     width: 80%;
     margin: 0 auto;
