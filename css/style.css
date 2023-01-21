@@ -48,18 +48,14 @@ body {
 
 /* carousel section start */
 .carosel_texts {
-  /* width: 600px; */
-  /* padding-top: 10px !important; */
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* margin: 0 auto; */
 }
 .corousel_heading {
   font-size: 45px;
   font-weight: 700;
-  /* width: 600px; */
 }
 .corousel_button {
   width: 160px;
@@ -76,24 +72,16 @@ body {
   font-weight: 500;
 }
 
-/* carousel section end */
-
 /* second section starts */
 .section_two {
   margin: 100px 0;
 }
-.second_1st_div {
-  /* width: 50%; */
-}
 .second_img {
-  /* width: 510px; */
-  /* height: 320px; */
   border-radius: 5px;
 }
 .second_2nd_div {
   text-align: left;
   padding-top: 75px;
-  /* width: 50%; */
 }
 .second_btn {
   border: none;
@@ -114,25 +102,25 @@ body {
 .second_btn:hover .second_right_arrow {
   color: #3f87f5 !important;
 }
-/* second section ends */
 
 /* third section starts */
 .section_three {
   margin-top: 100px;
 }
 .third_tick {
-  padding-right: 10px;
+  margin-right: 10px;
+  height: 25px;
+  width: 25px;
 }
 .third_3rd_tick {
-  height: 22px;
-  width: 22px;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
   background-color: #fff;
   margin-right: 10px;
+  background-position: bottom;
 }
-.third_para {
-  margin: 0 !important;
-}
+
 .third_btn {
   width: 195px;
   height: 45px;
@@ -160,26 +148,27 @@ body {
 .third_cards_parent_div {
   /* display: flex; */
   /* justify-content: center; */
-  position: relative;
+  /* position: relative; */
+}
+.third_para_div > ul > li {
+  list-style: none;
+  text-align: start;
+  display: flex;
 }
 .third_3rd_card {
-  /* width: 21%; */
   height: auto;
   background-color: #ffffff;
   padding: 30px 20px;
-  /* translate: 0 -60px; */
-  /* margin: 30px 20px; */
   border-radius: 40px;
 }
 .third_3rd_card_upper {
-  /* width: 21%; */
   height: auto;
   background-color: #3f87f5;
   padding: 30px 20px 30px 20px;
   margin-top: -70px;
   border-radius: 40px;
   color: #fff !important;
-  position: absolute;
+  text-align: center;
 }
 
 /* Forth section starts */
@@ -190,7 +179,7 @@ body {
   padding: 30px 25px;
 }
 #forth_card {
-  height: 350px !important;
+  height: auto !important;
   border: 1px solid #fff;
   /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
   box-shadow: 5px 5px 20px #cdcacaf6;
@@ -203,13 +192,10 @@ body {
   margin: 10px auto;
 }
 
-/* Forth section ends */
-
 /* Fifth section starts */
 .fifth_section {
   margin-top: 100px;
 }
-/* Fifth section ends */
 
 /* Footer starts */
 .footer_section {
@@ -219,14 +205,12 @@ body {
 }
 .footer_left {
   margin-top: 10%;
-  /* justify-items: center; */
   align-items: center;
   display: flex;
   flex-direction: column;
 }
 
 .footer_right {
-  /* justify-items: center; */
   align-items: center;
   display: flex;
   flex-direction: column;
